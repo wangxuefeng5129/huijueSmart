@@ -147,7 +147,6 @@ export default {
         this.listLoading = false
         this.list = res.data.records
         this.total = res.data.total
-        console.log(res)
       })
     },
     resetForm() {

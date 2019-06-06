@@ -112,7 +112,6 @@ export default {
       getAlarmLogList(this.listCondition).then(res => {
         this.exportloading = false
         var datalist = res.data
-        console.log(res)
         handleDownload(datalist)
       })
     },

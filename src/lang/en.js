@@ -24,6 +24,8 @@ export default {
     opticalBox: 'Optical Box',
     onuDevice: 'Device Manage',
     onuLog: 'Device Log',
+    onuHistorical: 'Historical Data',
+    onuDanger: 'Alarm Log',
 
     manholeCover: 'Manhole Cover',
     alarm: 'Alarm Data',

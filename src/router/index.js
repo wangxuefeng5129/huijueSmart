@@ -244,7 +244,20 @@ export const constantRoutes = [
         component: () => import('@/views/smartOpticalBox/onuLog'),
         name: 'onuLog',
         meta: { title: 'onuLog' }
+      },
+      {
+        path: 'onuHistorical',
+        component: () => import('@/views/smartOpticalBox/onuHistorical'),
+        name: 'onuHistorical',
+        meta: { title: 'onuHistorical' }
+      },
+      {
+        path: 'onuDanger',
+        component: () => import('@/views/smartOpticalBox/onuDanger'),
+        name: 'onuDanger',
+        meta: { title: 'onuDanger' }
       }
+
     ]
   },
   {

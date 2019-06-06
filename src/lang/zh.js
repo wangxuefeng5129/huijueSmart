@@ -24,6 +24,8 @@ export default {
     opticalBox: '智能光交箱',
     onuDevice: '设备管理',
     onuLog: '设备日志',
+    onuHistorical: '历史数据',
+    onuDanger: '告警记录',
 
     manholeCover: '智能井盖',
     alarm: '告警数据',
