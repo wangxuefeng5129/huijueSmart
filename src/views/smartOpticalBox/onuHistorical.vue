@@ -8,7 +8,7 @@
           <el-input v-model="listCondition.onuNumber" style="width: 150px;" class="filter-item" placeholder="请输入设备编号" />
           <el-input v-model="listCondition.onuName" style="width: 150px;" class="filter-item" placeholder="请输入设备名称" />
           <!--<el-input v-model="listCondition.address" style="width: 150px;" class="filter-item" placeholder="请输入设备地址" />-->
-          <!--<el-date-picker
+          <el-date-picker
             v-model="listCondition.stTime"
             class="filter-item"
             type="datetime"
@@ -21,7 +21,7 @@
             type="datetime"
             placeholder="请输入结束时间"
             value-format="yyyy-MM-dd HH:mm:ss"
-          />-->
+          />
           <!-- <el-input v-model="listCondition.startTime" style="width: 150px;" class="filter-item" placeholder="请输入开始时间" />
           <el-input v-model="listCondition.endTime" style="width: 150px;" class="filter-item" placeholder="请输入结束时间" /> -->
 
